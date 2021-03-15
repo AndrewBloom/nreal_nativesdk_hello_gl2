@@ -16,5 +16,8 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <meta-data
+        android:name="nreal_sdk"
+        android:value="true" />
   </application>
 </manifest>

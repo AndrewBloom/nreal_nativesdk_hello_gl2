@@ -27,6 +27,7 @@ import java.io.File;
 public class GL2JNIActivity extends Activity {
 
     GL2JNIView mView;
+    ai.nreal.sdk.GlassesDisplay glassesDisplay;
 
     @Override protected void onCreate(Bundle icicle) {
         super.onCreate(icicle);
